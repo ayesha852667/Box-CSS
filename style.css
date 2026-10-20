@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* BODY */
+
+body {
+    background-color: #fff5eb;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+/* MAIN HEADINGS */
+
+h1 {
+    color: #800020;
+    background-color: #f5d6c6;
+    padding: 25px;
+    margin: 15px;
+    border: 3px solid #800020;
+}
+
+h2 {
+    color: #800020;
+    padding: 15px;
+    margin: 10px;
+}
+
+h3 {
+    color: #9c4a25;
+    padding: 10px;
+}
+
+p {
+    color: #4a2525;
+    padding: 10px;
+}
+
+
+/* FIRST BIG SECTION */
+
+.box {
+    height: 95vh;
+    background-color: #f9e2d2;
+    border: 3px solid #800020;
+    margin: 20px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+
+/* TEXT CHILD */
+
+.child1 {
+    height: 180px;
+    width: 70%;
+    background-color: #fffaf5;
+    border: 2px solid #b8860b;
+    margin: 20px auto;
+    padding: 20px;
+    overflow-y: scroll;
+    text-align: left;
+}
+
+
+/* IMAGE CHILD */
+
+.child2 {
+    height: 250px;
+    width: 350px;
+    background-color: #f5c9b8;
+    border: 3px solid #800020;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.child2 img {
+    height: 190px;
+    width: 250px;
+    border: 2px solid #b8860b;
+}
+
+
+/* SECOND BIG SECTION */
+
+.box2 {
+    height: 95vh;
+    background-color: #fce8df;
+    border: 3px solid #800020;
+    margin: 20px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+
+/* CIRCLE IMAGE */
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #b8860b;
+    border-radius: 50%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.circle img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+/* PRODUCT CARDS */
+
+.product {
+    height: 300px;
+    width: 280px;
+    background-color: #fffaf5;
+    border: 3px solid #b8860b;
+    margin: 25px auto;
+    padding: 15px;
+}
+
+.product img {
+    height: 200px;
+    width: 220px;
+    border: 2px solid #800020;
+}
+
+.product h3 {
+    color: #800020;
+    padding: 10px;
+}
+
+.product p {
+    color: #6b3e26;
+    padding: 5px;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #800020;
+    color: white;
+    padding: 25px;
+    margin: 20px;
+}
